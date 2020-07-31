@@ -2326,7 +2326,7 @@ class CandlestickPatterns
       (self::lowerHighsLowerLows($prev_two, $prev_one) or self::lowerHighs($prev_two, $first_day)) and
       self::lowerHighsLowerLows($prev_one, $first_day) and
       self::marubozu($first_day) and 
-      ($first_day_middle > $second_day['high'])and 
+      ($first_day_middle > $second_day['high']) and 
       ($first_day['low'] === $second_day['low'])
       ){
       return true;
